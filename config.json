@@ -1,0 +1,13 @@
+{
+    "INPUT": {
+        "startDate": "08/12/2019",
+        "endDate": "08/12/2019",
+        "logLevel": 2,
+        "maxRequestRetries": 2,
+        "maxRequestsPerCrawl": 500,
+        "maxRequestDepth": 100,
+        "maxConcurrency": 10,
+        "isTestRun": false,
+        "dataset": "dadi360"
+    }
+}
