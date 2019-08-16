@@ -10,6 +10,8 @@
     "start-range-dev": "DRY_RUN=true node index.js",
     "normalize": "node normalizer.js",
     "load": "node loader.js",
+    "archive": "node archive.js",
+    "webhook": "npm run normalize && npm run load && npm run archive",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
@@ -42,6 +44,7 @@
     "dotenv": "^8.0.0",
     "loader": "github:wchen02/loader#master",
     "loglevel": "^1.6.3",
+    "mkdirp": "^0.5.1",
     "normalizer": "github:wchen02/normalizer#master",
     "scraper": "github:wchen02/scraper#master"
   }
