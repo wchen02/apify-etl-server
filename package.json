@@ -47,7 +47,6 @@
     "loader": "github:wchen02/loader#master",
     "loglevel": "^1.6.3",
     "mkdirp": "^0.5.1",
-    "normalizer": "github:wchen02/normalizer#master",
-    "scraper": "github:wchen02/scraper#master"
+    "normalizer": "github:wchen02/normalizer#master"
   }
 }

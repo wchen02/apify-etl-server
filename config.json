@@ -7,7 +7,6 @@
         "maxRequestsPerCrawl": 500,
         "maxRequestDepth": 100,
         "maxConcurrency": 10,
-        "isTestRun": false,
-        "dataset": "dadi360"
+        "isTestRun": false
     }
 }

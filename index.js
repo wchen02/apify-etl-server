@@ -8,8 +8,6 @@ const config = require('./config.json');
 function getDailyOptions(data, requestsPerDay, requestDepthsPerDay) {
     data.startDate = dateFns.format(dateFns.startOfToday(), 'MM/DD/YYYY');
     data.endDate = dateFns.format(dateFns.endOfToday(), 'MM/DD/YYYY');
-    data.dataset = `${ data.dataset }-${ data.startDate }-${ data.endDate }`;
-    data.dataset = data.dataset.replace(/\//g, '');
 
     data.maxRequestsPerCrawl = requestsPerDay;
     data.maxRequestDepth = requestDepthsPerDay;
@@ -18,8 +16,6 @@ function getDailyOptions(data, requestsPerDay, requestDepthsPerDay) {
 function getDateRangeOptions(data, requestsPerDay, requestDepthsPerDay, startDate, endDate) {
     data.startDate = startDate;
     data.endDate = endDate;
-    data.dataset = `${ data.dataset }-${ data.startDate }-${ data.endDate }`;
-    data.dataset = data.dataset.replace(/\//g, '');
 
     const numOfDays = Math.abs(dateFns.differenceInDays(startDate, endDate)) + 1;
     data.maxRequestsPerCrawl = requestsPerDay * numOfDays;
