@@ -1,3 +1,9 @@
+#### 1.2.3 (2019-08-18)
+
+##### Bug Fixes
+
+*  Wrong depolyment directory ([ff1d30dd](https://github.com/wchen02/apify-etl/commit/ff1d30dd5098cfcc09b03dee014971e7bf721bab))
+
 #### 1.2.2 (2019-08-18)
 
 ##### Bug Fixes
