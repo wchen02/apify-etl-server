@@ -1,3 +1,9 @@
+#### 1.2.2 (2019-08-18)
+
+##### Bug Fixes
+
+*  Fix deploying to the wrong destination ([e2d6198e](https://github.com/wchen02/apify-etl/commit/e2d6198e8499bec97d61668069c05f044a7257c1))
+
 #### 1.2.1 (2019-08-18)
 
 ##### Bug Fixes
