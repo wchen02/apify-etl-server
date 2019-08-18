@@ -1,6 +1,6 @@
 {
   "name": "apify-etl",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Scrape data using apify, normalize and load data into db.",
   "main": "app.js",
   "scripts": {
