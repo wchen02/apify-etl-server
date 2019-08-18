@@ -1,3 +1,13 @@
+#### 1.2.1 (2019-08-18)
+
+##### Bug Fixes
+
+*  Run nodejs server on sub uri ([46361334](https://github.com/wchen02/apify-etl/commit/46361334281f7f073c9641615f76f758c04cf92e))
+
+##### Other Changes
+
+*  remove 403 file ([9582fce7](https://github.com/wchen02/apify-etl/commit/9582fce7cc9ab7c925804e6b580c8bbca05d9a6c))
+
 ### 1.2.0 (2019-08-18)
 
 ##### New Features
