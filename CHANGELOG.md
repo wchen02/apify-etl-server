@@ -1,3 +1,9 @@
+### 1.1.0 (2019-08-18)
+
+##### New Features
+
+*  add cpanel deployment script ([9d472340](https://github.com/wchen02/apify-etl/commit/9d472340255fa32ec4c06a2362f142c4652f449a))
+
 ## 1.0.0 (2019-08-16)
 
 ##### New Features
