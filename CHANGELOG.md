@@ -1,3 +1,9 @@
+### 1.2.0 (2019-08-18)
+
+##### New Features
+
+*  Add express server to support webhooks ([4b50a247](https://github.com/wchen02/apify-etl/commit/4b50a2478f8a96268214b32148e9e132f88ea130))
+
 ### 1.1.0 (2019-08-18)
 
 ##### New Features
