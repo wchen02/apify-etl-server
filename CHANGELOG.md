@@ -1,3 +1,9 @@
+### 1.4.0 (2019-08-19)
+
+##### New Features
+
+*  Return version in /apify route, /process-dataset setTimeout to 2 hours ([90767f81](https://github.com/wchen02/apify-etl/commit/90767f812c7c59ab742b613d3f11a0df08e5939b))
+
 #### 1.3.1 (2019-08-19)
 
 ##### New Features
