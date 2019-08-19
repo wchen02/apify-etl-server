@@ -1,10 +1,5 @@
-const dotenv = require('dotenv');
-const log = require('loglevel');
-const apify = require('../lib/apify-client')();
+const apifyLib = require('apify-etl-lib')();
 
 exports.processDataset = async function(req, res) {
-    dotenv.config();
-    const options = process.env;
-    log.setLevel(options.LOG_LEVEL);
-    await apify.processDataset(options);
+    await apifyLib.processDataset(process.env);
 }
