@@ -2,28 +2,14 @@ const log = require('loglevel');
 const program = require('commander');
 const apify = require('../lib/apify-client')();
 
-function getLogLevel() {
-    if (program.silent) {
-        return log.levels.WARN;
-    } else if (program.debug) {
-        return log.levels.DEBUG;
-    } else {
-        return log.levels.INFO;
-    }
-}
-
-function getDefaultOptions() {
-    return {
-        silent: false,
-        debug: false,
-        downloadDir: 'download',
-        rawDataDir: 'raw',
-        normalizedDataDir: 'normalized',
-        archivedDir: 'archived'
-    }
-}
-
-const defaultOptions = getDefaultOptions();
+const defaultOptions = {
+    silent: false,
+    debug: false,
+    downloadDir: 'download',
+    rawDataDir: 'raw',
+    normalizedDataDir: 'normalized',
+    archivedDir: 'archived'
+};
 
 program
     .description('Retrieves last run dataset items')
@@ -47,6 +33,16 @@ async function main() {
     };
 
     await apify.archive(options);
+}
+
+function getLogLevel() {
+    if (program.silent) {
+        return log.levels.WARN;
+    } else if (program.debug) {
+        return log.levels.DEBUG;
+    } else {
+        return log.levels.INFO;
+    }
 }
 
 main();
