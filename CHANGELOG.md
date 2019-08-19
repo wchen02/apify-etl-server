@@ -1,3 +1,13 @@
+#### 1.4.1 (2019-08-19)
+
+##### Chores
+
+*  Update .env.example options ([d7cabb17](https://github.com/wchen02/apify-etl/commit/d7cabb1708860e619c2ff28170efed0bfafb19cf))
+
+##### Bug Fixes
+
+*  Change /apify/process-dataset from GET to POST ([621d4f85](https://github.com/wchen02/apify-etl/commit/621d4f8564404b96b79266fc33b688c0748fc31b))
+
 ### 1.4.0 (2019-08-19)
 
 ##### New Features
