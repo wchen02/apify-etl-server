@@ -1,3 +1,9 @@
+#### 1.3.1 (2019-08-19)
+
+##### New Features
+
+*  Auto restart passgenger server on deployment ([78f75542](https://github.com/wchen02/apify-etl/commit/78f75542ba229e04939f71fc45525bb088aa68af))
+
 ### 1.3.0 (2019-08-19)
 
 ##### New Features
