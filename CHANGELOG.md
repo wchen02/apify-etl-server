@@ -1,3 +1,25 @@
+### 1.3.0 (2019-08-19)
+
+##### New Features
+
+*  Migrate functionality to express server ([45365091](https://github.com/wchen02/apify-etl/commit/45365091a89fe63ef745f9d2aa52af2615e81d28))
+
+##### Bug Fixes
+
+*  Fix error when archive rename fails + refactor ([a48f5861](https://github.com/wchen02/apify-etl/commit/a48f586142b4004e3592cfd02e94bc79b6687feb))
+
+##### Other Changes
+
+*  Move apify-client to apify-etl-lib repo ([e74d3deb](https://github.com/wchen02/apify-etl/commit/e74d3deb15678a122bf8959dc05b3b831cd0d6f3))
+*  Remove dadi360 config ([70ad2cce](https://github.com/wchen02/apify-etl/commit/70ad2cceddfff8ed8c22f01095f1e4004213a535))
+*  Remove CLI capability, use apify-etl-cli repo instead ([7f887c10](https://github.com/wchen02/apify-etl/commit/7f887c10fb24f9d76e9dbc78dd26c8e4c80e33cf))
+
+##### Refactors
+
+*  Standize project structure, use repos ([6f6f02d1](https://github.com/wchen02/apify-etl/commit/6f6f02d1e58e36d6e354c0f2cd15ddb8e33dec08))
+*  Refactor archive cli ([ee3ec11a](https://github.com/wchen02/apify-etl/commit/ee3ec11af822c5eb014cbf148288b9b1881666e3))
+*  Refactor archive to use commander ([af926b77](https://github.com/wchen02/apify-etl/commit/af926b7748210dc5e6ff237c81ee3501b5804aef))
+
 #### 1.2.3 (2019-08-18)
 
 ##### Bug Fixes
