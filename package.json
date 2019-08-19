@@ -36,8 +36,7 @@
   "homepage": "https://github.com/wchen02/apify-etl#readme",
   "devDependencies": {
     "commander": "^3.0.0",
-    "generate-changelog": "^1.8.0",
-    "object.omit": "^3.0.0"
+    "generate-changelog": "^1.8.0"
   },
   "dependencies": {
     "axios": "^0.19.0",
