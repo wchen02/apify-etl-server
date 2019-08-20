@@ -1,5 +1,6 @@
-const apifyLib = require('apify-etl-lib')();
+const queue = require('../services/queue');
 
-exports.processDataset = async function(req, res) {
-    await apifyLib.processDataset(process.env);
+exports.processDataset = function(req, res) {
+    const ticket = queue.push(req.body);
+    res.send(ticket.status);
 }
