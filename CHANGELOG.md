@@ -1,3 +1,9 @@
+#### 1.5.1 (2019-08-20)
+
+##### Bug Fixes
+
+*  Fix typo causing server failing to start ([fd8de0a8](https://github.com/wchen02/apify-etl/commit/fd8de0a8032a82efc2c28ba8ded072b42d2c3289))
+
 ### 1.5.0 (2019-08-20)
 
 ##### New Features
