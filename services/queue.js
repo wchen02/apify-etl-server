@@ -6,4 +6,4 @@ const queue = new Queue(async function (input, cb) {
     await apifyLib.processDataset(process.env);
 });
 
-modules.exports = queue;
+module.exports = queue;
