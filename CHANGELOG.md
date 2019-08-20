@@ -1,3 +1,9 @@
+### 1.5.0 (2019-08-20)
+
+##### New Features
+
+*  Add webhook task into a queue to be processed ([4c8b4547](https://github.com/wchen02/apify-etl/commit/4c8b4547bd654b4c2b5a4ff84a58675f25292703))
+
 #### 1.4.1 (2019-08-19)
 
 ##### Chores
