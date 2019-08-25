@@ -1,6 +1,9 @@
+const log = require('../bootstrap/log');
 const queue = require('../services/queue');
 
-exports.processDataset = function(req, res) {
-    const ticket = queue.push(req.body);
-    res.send(ticket.status);
-}
+exports.processDataset = (req, res) => {
+    log.info('Enquing tasks: ');
+    log.info(req.body);
+    queue.publish('', 'apify-task', Buffer.from(JSON.stringify(req.body)));
+    res.send('Acknowledged');
+};
