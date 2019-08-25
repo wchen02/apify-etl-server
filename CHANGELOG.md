@@ -1,3 +1,9 @@
+#### 1.6.1 (2019-08-25)
+
+##### Other Changes
+
+*  Update cpanel deploy script to use npm ci to prevent changes to package-lock.json ([31a7d3f8](https://github.com/wchen02/apify-etl/commit/31a7d3f8ad15d7d0b42409fcae44b8b7d523c336))
+
 ### 1.6.0 (2019-08-25)
 
 ##### New Features
