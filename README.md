@@ -2,22 +2,12 @@
 Scrape data using apify, normalize and load data into db.
 
 ## How to use
-Runs remote Apify scraper task daily or at a date range.
+Runs a node express server to to accept webhook calls from apify. Once a webhook called is received, task is enqueued into rabbitmq and process by the worker in the same server. This is because the processing scraped data takes a long time and apify requires an immediate response.
 
-### Daily
-**Run normal mode**
+## Endpoints
 
-`npm run start`
+### GET /apify
+Entry point, returns the current version of the npm package.
 
-**Run dry mode mode**
-
-`npm run start-dev`
-
-### Date Range
-**Run normal mode**
-
-`START_DATE='08/12/2019' END_DATE='08/16/2019' npm run start-range`
-
-**Run dry mode mode**
-
-`START_DATE='08/12/2019' END_DATE='08/16/2019' npm run start-range-dev`
+### POST /apify/process-dataset
+Accepts the apify webhook event and enqueues task to be processed by the worker.
