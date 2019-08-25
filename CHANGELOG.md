@@ -1,3 +1,9 @@
+#### 1.6.2 (2019-08-25)
+
+##### Documentation Changes
+
+* **readme:**  Update readme with endpoints ([a9270d6f](https://github.com/wchen02/apify-etl/commit/a9270d6fea15b81a003bb7fdb9f87c7ee2a72120))
+
 #### 1.6.1 (2019-08-25)
 
 ##### Other Changes
