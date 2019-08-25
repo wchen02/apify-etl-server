@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/funtofu/apify/
-    - /opt/cpanel/ea-nodejs10/bin/npm install
+    - /opt/cpanel/ea-nodejs10/bin/npm clean-install
     - /usr/bin/rsync -a --exclude '.git' --exclude .gitignore . $DEPLOYPATH
     - touch $DEPLOYPATH/tmp/restart.txt
