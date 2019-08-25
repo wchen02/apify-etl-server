@@ -1,3 +1,10 @@
+### 1.6.0 (2019-08-25)
+
+##### New Features
+
+*  Process webhook dataset with rabbitmq worker ([fc189e0c](https://github.com/wchen02/apify-etl/commit/fc189e0cef586107c9d4d571e7c16fba933416b5))
+*  Add eslint, rabbitmq, refactor code ([0ad436bf](https://github.com/wchen02/apify-etl/commit/0ad436bffba2b0ced4282009c406f0db61d5a4f1))
+
 #### 1.5.1 (2019-08-20)
 
 ##### Bug Fixes
