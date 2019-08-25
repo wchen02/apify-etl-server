@@ -1,4 +1,5 @@
 const amqp = require('amqplib/callback_api');
+const apify = require('apify-etl-lib')();
 const log = require('../bootstrap/log');
 
 // if the connection is closed or fails to be established at all, we will reconnect
@@ -9,6 +10,8 @@ const offlinePubQueue = [];
 
 function work(msg, cb) {
     log.info('Got msg ', msg.content.toString());
+    apify.processDataset(process.env);
+    // this doesnt wait til data is completely processed, need to change to async await syntax
     cb(true);
 }
 
