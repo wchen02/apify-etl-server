@@ -1,3 +1,9 @@
+#### 1.6.3 (2019-08-25)
+
+##### Chores
+
+*  Update dependencies ([c69664c2](https://github.com/wchen02/apify-etl/commit/c69664c22341fe5d1156537cdc0ab9dde926fb4d))
+
 #### 1.6.2 (2019-08-25)
 
 ##### Documentation Changes
