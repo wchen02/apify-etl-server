@@ -1,3 +1,9 @@
+#### 1.6.9 (2019-08-31)
+
+##### Other Changes
+
+*  lock dependencies package version ([eb26c45d](https://github.com/wchen02/apify-etl/commit/eb26c45dad42bae5b2d2eb21c35e1f90d99388f4))
+
 #### 1.6.8 (2019-08-31)
 
 ##### Chores
