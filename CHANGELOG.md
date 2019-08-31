@@ -1,3 +1,9 @@
+#### 1.6.5 (2019-08-31)
+
+##### Chores
+
+*  Update package and env name change ([0444a6a3](https://github.com/wchen02/apify-etl/commit/0444a6a3dd42195caf178b93e971d1a9979e5f20))
+
 #### 1.6.4 (2019-08-31)
 
 ##### Chores
