@@ -1,3 +1,9 @@
+#### 1.6.8 (2019-08-31)
+
+##### Chores
+
+*  update package ([c0795a3c](https://github.com/wchen02/apify-etl/commit/c0795a3c014375250f8ee60e3bf1562e47600e7d))
+
 #### 1.6.7 (2019-08-31)
 
 ##### Chores
