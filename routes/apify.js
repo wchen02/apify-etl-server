@@ -12,5 +12,12 @@ router.post('/process-dataset', async (req, res) => {
         res.status(500).send({ error: 'Something failed!' });
     }
 });
+router.get('/archive', async (req, res) => {
+    try {
+        await apifyController.archive(req, res);
+    } catch (err) {
+        res.status(500).send({ error: 'Something failed!' });
+    }
+});
 
 module.exports = router;
