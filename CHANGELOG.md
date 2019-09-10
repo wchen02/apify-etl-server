@@ -1,3 +1,9 @@
+### 1.7.0 (2019-09-10)
+
+##### New Features
+
+*  Add route to archive files ([5d659079](https://github.com/wchen02/apify-etl/commit/5d659079a4e3b5390832e6a65b2f94976f2f2c6c))
+
 #### 1.6.9 (2019-08-31)
 
 ##### Other Changes
