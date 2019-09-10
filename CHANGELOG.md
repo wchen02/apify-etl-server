@@ -1,3 +1,9 @@
+#### 1.7.1 (2019-09-10)
+
+##### Chores
+
+*  Update dependency version ([12af062a](https://github.com/wchen02/apify-etl/commit/12af062a8ff1d4de295654d027dbce07d2c0c6fb))
+
 ### 1.7.0 (2019-09-10)
 
 ##### New Features
